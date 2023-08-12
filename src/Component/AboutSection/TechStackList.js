@@ -11,26 +11,26 @@ const TechStackList = [
         icon: html5
     },
     {
-        id: 1,
+        id: 2,
         name: "CSS3",
         icon: css3,
         classname: "css3-icon",
     },
     {
-        id: 1,
+        id: 3,
         name: "Javascript",
         icon: js,
         classname: "js-icon",
     },
     {
-        id: 1,
+        id: 4,
         name: "Boostrap",
         icon: bootstrap,
         classname: "bootstrap-icon",
     },
 
     {
-        id: 1,
+        id: 5,
         name: "React",
         icon: react,
         classname: "react-icon",

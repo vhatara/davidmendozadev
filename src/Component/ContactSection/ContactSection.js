@@ -44,19 +44,19 @@ const ContactSection = () => {
 
             <div className='social-icons'>
               <a className='fa-2xl socials-link' href='https://www.facebook.com/decimodcm' target='_blank' rel='noreferrer'>
-                <i class="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-facebook"></i>
               </a>
 
               <a className='fa-2xl socials-link' href='https://www.linkedin.com/in/mendoza-david-cinco/' target='_blank' rel='noreferrer'>
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </a>
 
               <a className='fa-2xl socials-link' href='https://www.messenger.com/t/decimodcm' target='_blank' rel='noreferrer'>
-                <i class="fa-brands fa-facebook-messenger"></i>
+                <i className="fa-brands fa-facebook-messenger"></i>
               </a>
 
               <a className='fa-2xl socials-link' href='mailto:davidmndza98@gmail.com' target='_blank' rel='noreferrer'>
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
               </a>
 
             </div>
@@ -70,23 +70,23 @@ const ContactSection = () => {
               <form onSubmit={sendEmail}>
 
                   <div className='formInput'>
-                  <label for="sendername"> Full Name: </label>
-                  <input type="text" id="sendername" name='sendername' required autocomplete="off" title='Please enter your full name.'/>
+                  <label htmlFor="sendername"> Full Name: </label>
+                  <input type="text" id="sendername" name='sendername' required autoComplete="off" title='Please enter your full name.'/>
                   </div>
                   
                   <div className='formInput'>
-                  <label for="senderemail"> Email Address: </label>
-                  <input type="email" id="senderemail" name='senderemail' required autocomplete="off" title='Please enter a valid email address.'/>
+                  <label htmlFor="senderemail"> Email Address: </label>
+                  <input type="email" id="senderemail" name='senderemail' required autoComplete="off" title='Please enter a valid email address.'/>
                   </div>
 
                   <div className='formInput'>
-                  <label for="messagesubject"> Subject: </label>
-                  <input type="text" id="messagesubject" name='messagesubject' required autocomplete="off" title='Please enter a message title.'/>
+                  <label htmlFor="messagesubject"> Subject: </label>
+                  <input type="text" id="messagesubject" name='messagesubject' required autoComplete="off" title='Please enter a message title.'/>
                   </div>
                   
                   <div className='formInput'>
-                  <label for="messagebody"> Message: </label>
-                  <textarea type="text" id="messagebody" name='messagebody' required autocomplete="off" title='Please enter your message/feedback'/>
+                  <label htmlFor="messagebody"> Message: </label>
+                  <textarea type="text" id="messagebody" name='messagebody' required autoComplete="off" title='Please enter your message/feedback'/>
                   </div>
 
                   <div className='sendBtn_div'>

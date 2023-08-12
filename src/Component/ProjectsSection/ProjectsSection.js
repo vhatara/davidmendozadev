@@ -10,7 +10,7 @@ const ProjectsSection = () => {
         <h1 className='section-title-project d-flex justify-content-center'> Featured Projects </h1>
           <Row xs={1} md={2} lg={3} className='d-flex justify-content-between g-4 py-5'>
             {projectListArray.map((project)=> (
-              <Col align="center" className='px-5'>
+              <Col align="center" className='px-5' key={project.id}>
                     <Card>
                       <Card.Img variant="top" src={project.image} draggable="false"/>
                       <Card.Body>
@@ -20,10 +20,10 @@ const ProjectsSection = () => {
                         </Card.Text>
                         <div>
                         <a href={project.sourcecode} target='_blank' rel="noreferrer" className='sourcecode-a'>
-                          <i class="fa-brands fa-github"></i>
+                          <i className="fa-brands fa-github"></i>
                         </a>
                         <a href={project.weblink} target='_blank' rel="noreferrer" className='sourcecode-a'>
-                          <i class="fa-solid fa-globe"></i>
+                          <i className="fa-solid fa-globe"></i>
                         </a>
                         </div>
                       </Card.Body>

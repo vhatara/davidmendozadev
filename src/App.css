@@ -314,8 +314,14 @@ body {
   text-align: center;
 }
 
+.tech-stack-div { 
+  width: 50%;
+  margin: 0 auto;
+}
+
 .tech-stack-icons { 
-  width: 25%!important;
+  width: 50%!important;
+  height: 100%;
 }
 
 .about-me-img, .about-me-desc { 
