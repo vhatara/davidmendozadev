@@ -10,7 +10,7 @@ const AboutSection = () => {
       <div className='about-wrapper'>
         <div className='tech-stack-div'>
           <h1 className='section-title'> Tech Stacks </h1>
-          <Row xs={3} md={3} lg={5} className='tech-row-div d-flex justify-content-between py-3' >
+          <Row xs={3} md={5} lg={5} className='tech-row-div d-flex justify-content-around py-3' >
               {TechStackList.map((techstack)=> (
               <Col align="center" className='tech-col-div' key={techstack.id} >
                     <img  className={"tech-stack-icons " + techstack.classname} src={techstack.icon} alt={techstack.name}></img>
