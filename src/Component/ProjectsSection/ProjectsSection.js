@@ -8,7 +8,7 @@ const ProjectsSection = () => {
     <section id='projects'>
       <div className='project-wrapper '>
         <h1 className='section-title-project d-flex justify-content-center'> Featured Projects </h1>
-          <Row xs={1} md={2} lg={3} className='d-flex justify-content-between g-4 py-5'>
+          <Row xs={1} md={2} lg={3} className='d-flex justify-content-around g-4 py-5'>
             {projectListArray.map((project)=> (
               <Col align="center" className='px-5' key={project.id}>
                     <Card>
