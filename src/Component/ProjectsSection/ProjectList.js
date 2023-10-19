@@ -22,14 +22,7 @@ const projectListArray = [
     //     weblink: "https://vhatara.github.io/login_signup/",
     //     sourcecode: "https://github.com/vhatara/login_signup"
     // },
-    // {
-    //     id: 3,
-    //     image: ncmhpharmacy,
-    //     name: "NCMH Online Pharmacy",
-    //     description: "A capstone project under the KodeGo Full-Stack Web Development Bootcamp",
-    //     weblink: "https://digital-doers.vercel.app/",
-    //     sourcecode: "https://github.com/Keith0309/DigitalDoers"
-    // },
+
     {
         id: 1,
         image: tokenjet,
@@ -37,6 +30,15 @@ const projectListArray = [
         description: "TokenJet is cryptocurrency website using CoinGecko API.",
         weblink: "https://tokenjet.vercel.app/",
         sourcecode: "https://github.com/vhatara/tokenjet"
+    },
+    
+    {
+        id: 2,
+        image: ncmhpharmacy,
+        name: "NCMH Online Pharmacy",
+        description: "A capstone project under the KodeGo Full-Stack Web Development Bootcamp",
+        weblink: "https://digital-doers.vercel.app/",
+        sourcecode: "https://github.com/Keith0309/DigitalDoers"
     },
 ]
 
